@@ -1,0 +1,16 @@
+# Goal
+string mission_id
+int32 loop_count
+---
+# Result
+bool success
+string message
+---
+# Feedback
+int32 station_index
+int32 total_stations
+string station_id
+string task
+string state
+int32 loop_index
+int32 loop_count

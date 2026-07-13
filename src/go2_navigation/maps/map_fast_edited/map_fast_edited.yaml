@@ -1,0 +1,9 @@
+image: map_fast_edited_2.pgm
+mode: trinary
+resolution: 0.05
+origin: [-12.5, -19.55, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
+
+
