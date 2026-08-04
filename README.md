@@ -2,7 +2,6 @@
 
 # Go2 CNIMI — Autonomous Navigation Stack
 
-ROS 2 Humble autonomy stack for Unitree Go2 integrating LiDAR-inertial odometry, localization, navigation, and mission execution.
 
 </div>
 
