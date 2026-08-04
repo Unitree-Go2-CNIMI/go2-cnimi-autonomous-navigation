@@ -23,7 +23,9 @@ High-level mission execution is implemented through a ROS 2 action-based framewo
 
 ## Architecture
 
-![Architecture](assets/architecture.png)
+<p align="center">
+  <img src="assets/architecture.png" width="700"/>
+</p>
 
 ---
 
