@@ -55,9 +55,6 @@ High-level mission execution is implemented through a ROS 2 action-based framewo
 | `go2_msgs` | Custom actions/services/messages shared across the stack |
 | `navigation2` | Forked Nav2, modified to expose planner critic scores and separate reference vs. candidate trajectories for debugging |
 | `unitree_ros2` | Unitree SDK/DDS interface layer |
-| `mission-ui` | Web interface for planning and triggering missions |
-
-
 
 ## Setup
 
@@ -67,7 +64,7 @@ See [SETUP.md](assets/SETUP.md) for installation and configuration instructions.
 
 ## Scope
 
-This repository contains the core autonomy software developed for the project.
+This repository contains the core autonomy software developed for the project. It is designed to work alongside [mission-planner-frontend](https://github.com/Unitree-Go2-CNIMI/mission-planner-frontend), which handles the user interface.
 
 Deployment-specific assets such as environment maps, network configuration, and company-specific integration components are excluded.
 
