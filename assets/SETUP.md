@@ -34,7 +34,7 @@ Update the LiDAR host IP in:
 Clone this repository:
 
 ```bash
-git clone https://github.com/Unitree-Go2-CNIMI/go2_cnimi_ws ~/go2_cnimi_ws
+git clone https://github.com/Unitree-Go2-CNIMI/go2-cnimi-autonomous-navigation.git ~/go2_cnimi_ws
 ```
 
 Install ROS dependencies and build:
