@@ -24,7 +24,7 @@ High-level mission execution is implemented through a ROS 2 action-based framewo
 ## Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" width="700"/>
+  <img src="assets/architecture.png" height="500"/>
 </p>
 
 ---
@@ -75,4 +75,4 @@ Deployment-specific assets such as environment maps, network configuration, and 
 
 ## Demo
 
-![Demo](assets/demo.mp4)
+![Demo](assets/demo_2.mp4)
