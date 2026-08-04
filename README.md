@@ -75,4 +75,4 @@ Deployment-specific assets such as environment maps, network configuration, and 
 
 ## Demo
 
-![Demo](assets/demo_2.mp4)
+![Demo](assets/demo.gif)
