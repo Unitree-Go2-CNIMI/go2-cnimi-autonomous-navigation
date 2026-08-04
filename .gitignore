@@ -5,3 +5,8 @@ log/
 missions/
 
 experiments/
+
+src/go2_navigation/maps/*
+!src/go2_navigation/maps/.gitkeep
+src/go2_navigation/config/*.yaml
+src/go2_mission/go2_mission/mission_api.py
