@@ -14,9 +14,9 @@
 Go2 CNIMI is an autonomous navigation stack developed for the Unitree Go2 Edu quadruped robot.
 
 
-The system uses a Livox MID-360 LiDAR with FAST-LIO for LiDAR-inertial odometry. The estimated motion is integrated into a navigation pipeline combining AMCL localization with Nav2 navigation. The required map can be generated using either slam_toolbox or FAST-LIO (3D point cloud converted to an occupancy grid).
+The system uses a Livox MID-360 LiDAR with FAST-LIO2 for LiDAR-inertial odometry. The estimated motion is integrated into a navigation pipeline combining AMCL localization with Nav2 navigation. The required map can be generated using either slam_toolbox or FAST-LIO2 (3D point cloud converted to an occupancy grid).
 
-High-level mission execution is implemented through a ROS 2 action-based framework. A React web interface provides real-time mission planning, execution control, and live robot monitoring over WebSocket and REST.
+High-level mission execution is implemented through a ROS 2 action-based framework. A React web interface provides real-time mission planning, execution control, and live robot monitoring over WebSocket and REST API.
 
 ---
 
@@ -30,9 +30,9 @@ High-level mission execution is implemented through a ROS 2 action-based framewo
 
 ## Technical Contributions
 
-* Evaluated different odometry alternatives and deployed FAST-LIO as the primary odometry source.
+* Evaluated different odometry alternatives and deployed FAST-LIO2 as the primary odometry source.
 * Developed the TF and sensor-processing pipeline connecting LiDAR odometry to the navigation stack.
-* Configured and tuned Nav2 for quadruped in cluttered indoor environments: SMAC 2D global planner, MPPI local controller, local and global costmaps, velocity smoother, and collision monitor.
+* Configured and tuned Nav2 for quadruped in cluttered indoor environments.
 * Designed a ROS 2 action-based mission execution architecture with pause, resume, abort mission, and skip task controls.
 * Developed the bringup architecture coordinating perception, localization, navigation, and mission layers.
 * Built a React-based mission supervision interface with real-time streaming of robot pose, navigation path, and mission state over WebSocket (rosbridge), and REST-based command dispatch (execute, pause, resume, skip, abort) → [mission-planner-frontend](https://github.com/Unitree-Go2-CNIMI/mission-planner-frontend).
